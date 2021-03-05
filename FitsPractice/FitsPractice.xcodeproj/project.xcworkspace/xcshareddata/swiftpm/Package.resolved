@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "FITSCore",
+        "repositoryURL": "https://github.com/brampf/fitscore.git",
+        "state": {
+          "branch": "0.1.0",
+          "revision": "55c33ec1c23699a8ca82ad0d06f0b02d4e6a8c37",
+          "version": null
+        }
+      },
+      {
+        "package": "swift-numerics",
+        "repositoryURL": "https://github.com/apple/swift-numerics",
+        "state": {
+          "branch": null,
+          "revision": "6583ac70c326c3ee080c1d42d9ca3361dca816cd",
+          "version": "0.1.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
