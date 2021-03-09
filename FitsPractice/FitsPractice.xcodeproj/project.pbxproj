@@ -15,6 +15,14 @@
 		43A0D03125E5DDE60094B64B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A0D00625E5DDE30094B64B /* ContentView.swift */; };
 		43A0D03225E5DDE60094B64B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43A0D00725E5DDE60094B64B /* Assets.xcassets */; };
 		43A0D03325E5DDE60094B64B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43A0D00725E5DDE60094B64B /* Assets.xcassets */; };
+		43ADA6BD25F816A50032F7AC /* InitialNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43ADA6BC25F816A50032F7AC /* InitialNumber.swift */; };
+		43ADA6BE25F816A50032F7AC /* InitialNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43ADA6BC25F816A50032F7AC /* InitialNumber.swift */; };
+		43ADA6BF25F816A50032F7AC /* InitialNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43ADA6BC25F816A50032F7AC /* InitialNumber.swift */; };
+		43ADA6C025F816A50032F7AC /* InitialNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43ADA6BC25F816A50032F7AC /* InitialNumber.swift */; };
+		43BD9D5325F1C32600CA6AFE /* Sepeartor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BD9D5225F1C32600CA6AFE /* Sepeartor.swift */; };
+		43BD9D5425F1C32600CA6AFE /* Sepeartor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BD9D5225F1C32600CA6AFE /* Sepeartor.swift */; };
+		43BD9D5525F1C32600CA6AFE /* Sepeartor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BD9D5225F1C32600CA6AFE /* Sepeartor.swift */; };
+		43BD9D5625F1C32600CA6AFE /* Sepeartor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BD9D5225F1C32600CA6AFE /* Sepeartor.swift */; };
 		43EECE4F25E879C20020A7E5 /* FITSCore in Frameworks */ = {isa = PBXBuildFile; productRef = 43EECE4E25E879C20020A7E5 /* FITSCore */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +58,8 @@
 		43A0D02725E5DDE60094B64B /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		43A0D02B25E5DDE60094B64B /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		43A0D02D25E5DDE60094B64B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43ADA6BC25F816A50032F7AC /* InitialNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialNumber.swift; sourceTree = "<group>"; };
+		43BD9D5225F1C32600CA6AFE /* Sepeartor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sepeartor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +110,10 @@
 		43A0D00425E5DDE30094B64B /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				43BD9D5225F1C32600CA6AFE /* Sepeartor.swift */,
 				43A0D00525E5DDE30094B64B /* FitsPracticeApp.swift */,
 				43A0D00625E5DDE30094B64B /* ContentView.swift */,
+				43ADA6BC25F816A50032F7AC /* InitialNumber.swift */,
 				43A0D00725E5DDE60094B64B /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -317,6 +329,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				43A0D03025E5DDE60094B64B /* ContentView.swift in Sources */,
+				43ADA6BD25F816A50032F7AC /* InitialNumber.swift in Sources */,
+				43BD9D5325F1C32600CA6AFE /* Sepeartor.swift in Sources */,
 				43A0D02E25E5DDE60094B64B /* FitsPracticeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -326,6 +340,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				43A0D03125E5DDE60094B64B /* ContentView.swift in Sources */,
+				43ADA6BE25F816A50032F7AC /* InitialNumber.swift in Sources */,
+				43BD9D5425F1C32600CA6AFE /* Sepeartor.swift in Sources */,
 				43A0D02F25E5DDE60094B64B /* FitsPracticeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -335,6 +351,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				43A0D02125E5DDE60094B64B /* Tests_iOS.swift in Sources */,
+				43BD9D5525F1C32600CA6AFE /* Sepeartor.swift in Sources */,
+				43ADA6BF25F816A50032F7AC /* InitialNumber.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +361,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				43A0D02C25E5DDE60094B64B /* Tests_macOS.swift in Sources */,
+				43BD9D5625F1C32600CA6AFE /* Sepeartor.swift in Sources */,
+				43ADA6C025F816A50032F7AC /* InitialNumber.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,7 +499,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 474K5VTWLD;
+				DEVELOPMENT_TEAM = CHZ9R6RDJ8;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -501,7 +521,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 474K5VTWLD;
+				DEVELOPMENT_TEAM = CHZ9R6RDJ8;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;

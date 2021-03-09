@@ -74,23 +74,38 @@ struct ContentView: View {
             
             //print(str2)
             let dataHead = ["SIMPLE ","BITPIX ","NAXIS ","NAXIS1 ","NAXIS2 ","EXTEND ","COMMENT   FITS","BZERO ","BSCALE ","XBINNING","YBINNING","XPIXSZ ", "YPIXSY ", "EXPTIME", "IMAGETYP", "DATE-OBS", "INSTRUME "]
+
             let q = dataHead.count
             //print(q)
+            var contentsArray: [String] = strInfo.myComponents(withMaxLength: 80)
+            //print(contentsArray)
+            let q2 = contentsArray.count
+            print(q2)
             var strInfoVar = strInfo
-            var Info = Array(repeating:"", count: q)
-            for n in 0 ... q - 1{
-                Info[n] = strInfoVar.components(separatedBy: dataHead[n])[0]
-                strInfoVar = dataHead[n] + strInfoVar.components(separatedBy: dataHead[n])[1]
-                
+            var Info = Array(repeating:"", count: q2)
+            var Info2 = Array(repeating:"", count: q2)
+            var dataChar = Array(repeating:"", count: q)
+            print (contentsArray)
+            for n in 0 ... q2 - 1 {
+            Info[n] = contentsArray[n] + "\n"
+                for z in 0 ... q - 1{
+                    if Info[n].contains(contentsArray[z]){
+                        //Info2[n] = 
+                        dataChar[z] = Info[n].westernArabicNumeralsOnly
+                    }
+                }
                 print(Info[n])
-                //print(strInfoVar)
                 
             }
+            print(dataChar)
+                
+            //}
 
             dataInfo = strInfo
             //dataFit = strbinary
             //print(strbinary)
-        } catch {
+        }
+            catch {
         }
  //       print(dataInfo)
         
